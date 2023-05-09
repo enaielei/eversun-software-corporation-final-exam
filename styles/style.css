@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body > div {
+    width: 700px;
+    margin: auto;
+    padding: 1em;
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+table {
+    border-collapse: collapse;;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+.code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+}
+
+.code * {
+    font-family: inherit;
+}
+
+div.code {
+    padding: 0.5em;
+    padding-left: 1em;
+}
+
+table td {
+    padding: 0.2em;
+    text-align: center;
+}
+
+table.code {
+    background-color: white;
+    color: black;
+}
+
+table td.highlight {
+    color: red;
+    font-weight: bolder;
+}
